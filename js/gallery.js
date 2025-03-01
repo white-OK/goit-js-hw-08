@@ -86,5 +86,6 @@ galleryList.addEventListener("click", (event) => {
   const instance = basicLightbox.create(`
 <img src="${img}" alt="${alt}">
 `);
+  
   instance.show();
 })
